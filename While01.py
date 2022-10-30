@@ -6,6 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return len(str(s))
+    a = 0
+    d = 0
+    while a<len(s):
+        if s[a].isdigit():
+            a += 1
+        d += 1   
+    return a
 
-print(main("551"))
+print(main("kdk551"))
