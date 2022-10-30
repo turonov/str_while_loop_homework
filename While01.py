@@ -7,11 +7,11 @@ def main(s):
         int: return answer
     """
     a = 0
-    d = 0
-    while a<len(s):
+    b = 0
+    while a < len(s):
         if s[a].isdigit():
-            d += 1
-        a += 1   
-    return a
+            b +=1
+        a +=1  
+    return b
 
 print(main("kdk551"))
