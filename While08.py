@@ -6,4 +6,17 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    j = 0
+    n = 0
+
+    while j < len(s):
+        if s[j].isdigit():
+            if int (s[j]) % 2 != 0:
+                n += 1
+            else:
+                j += 0
+        j += 1
+    return n
+
+print(main("95728"))
+    
