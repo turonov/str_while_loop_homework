@@ -10,8 +10,8 @@ def main(s):
     d = 0
     while a<len(s):
         if s[a].isdigit():
-            a += 1
-        d += 1   
+            d += 1
+        a += 1   
     return a
 
 print(main("kdk551"))
