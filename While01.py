@@ -6,4 +6,6 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    return len(str(s))
+
+print(main("551"))
