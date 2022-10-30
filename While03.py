@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i = 0
+    a = 0
+    punctuation = '''!@#$%^&*(){}[]|._-`/?:;"'\,~'''
+    while i<len(s):
+        if s[i] in punctuation:
+            a +=1
+            
+        i+=1
+
+    return a
+
+print(main("sa~!@####lom"))
