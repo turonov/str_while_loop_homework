@@ -13,9 +13,7 @@ def main(s):
     while a < len(s):
         if s[a] == "a" or s[a]== "e" or s[a] == "i" or s[a]=="o" or s[a]=="u":
             b += 1
-        else:
-            a += 0
         a += 1   
-    return b
+    return b 
 
-print(main("salom"))
+print(main("salOom"))
