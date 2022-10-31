@@ -9,7 +9,7 @@ def main(s):
     """
     a = 0
     b = 0
-    s=s.lower
+    s=s.lower()
     while a < len(s):
         if s[a] =="a"or s[a]=="e" or s[a] == "i" or s[a]=="o" or s[a]=="u":
             b += 1
