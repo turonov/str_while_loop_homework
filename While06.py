@@ -15,5 +15,5 @@ def main(s):
             b += 1
         a += 1   
     return b 
-
+ 
 print(main("salOom"))
