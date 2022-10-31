@@ -12,10 +12,10 @@ def main(s):
     s=s.lower()
     while a < len(s):
         if s[a] == "a" or s[a]== "e" or s[a] == "i" or s[a]=="o" or s[a]=="u":
-            b += 0
+            b += 1
         else:
-            a += 1
+            a += 0
         a += 1   
-    return a
+    return b
 
-print(main("aaab"))
+print(main("salom"))
